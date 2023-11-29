@@ -16,11 +16,10 @@ namespace HiddenMaps
 
         const string guide = "\n" +
             "To play levels from the Breachers collection. Use the following keys:\n" +
-            "\t F1: Shred\n" +
-            "\t F2: Majesty\n" +
-            "\t F3: Nobody Wants You\n" +
-            "\t F4: Work\n" +
-            "\t F5: Good News\n" +
+            "\t F1: DestinyIsCalling\n" +
+            "\t F2: EverBurningFlame\n" +
+            "\t F3: Soulbound (WIP)\n" +
+            "\t F4: TheOtherSonOfOdin\n" +
             "\n";
 
         bool InitGameManager()
@@ -51,23 +50,19 @@ namespace HiddenMaps
 
             if (Input.GetKeyDown(KeyCode.F1))
             {
-                gameManager.SetDestinationAndUpdateUIFromDestinationString("Shred");
+                gameManager.SetDestinationAndUpdateUIFromDestinationString("DestinyIsCalling");
             }
             if (Input.GetKeyDown(KeyCode.F2))
             {
-                gameManager.SetDestinationAndUpdateUIFromDestinationString("Majesty");
+                gameManager.SetDestinationAndUpdateUIFromDestinationString("EverBurningFlame");
             }
             if (Input.GetKeyDown(KeyCode.F3))
             {
-                gameManager.SetDestinationAndUpdateUIFromDestinationString("NobodyWantsYou");
+                gameManager.SetDestinationAndUpdateUIFromDestinationString("Soulbound");
             }
             if (Input.GetKeyDown(KeyCode.F4))
             {
-                gameManager.SetDestinationAndUpdateUIFromDestinationString("Work");
-            }
-            if (Input.GetKeyDown(KeyCode.F5))
-            {
-                gameManager.SetDestinationAndUpdateUIFromDestinationString("GoodNews");
+                gameManager.SetDestinationAndUpdateUIFromDestinationString("TheOtherSonOfOdin");
             }
         }
     }
