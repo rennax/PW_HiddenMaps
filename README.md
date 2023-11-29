@@ -7,9 +7,8 @@ You will have to fix the dependencies to match your installation path of PistolW
 
 ## Instructions
 To play levels from the Breachers collection. Use the following keys (Yes you have to use keyboard):
-- F1 for Shred
-- F2 for Majesty
-- F3 for Nobody Wants You
-- F4 for Work
-- F5 for Good News
+- F1 for Destiny Is Calling
+- F2 for Ever Burning Flame
+- F3 for Soulbound (WIP)
+- F4 for The Other Son Of Odin
 
